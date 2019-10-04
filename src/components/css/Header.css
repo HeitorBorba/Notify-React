@@ -1,0 +1,47 @@
+.Header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-image: url(../imagens/banner.png);
+    background-size: 100%;
+    border-top: solid #5fcd70 3px;
+}
+
+.Header h1{
+    color: antiquewhite;
+    font-family:'Pacifico','cursive';
+
+}
+
+.Header p{
+    color: antiquewhite;
+}
+
+#celular{
+    display: flex;
+    justify-items: auto;
+    align-content: center;
+}
+
+#celular img{
+    width: 20px;
+    height: 20px;
+}
+#mao img{
+    width: 299px;
+    height: 307px;
+    padding-top: 100px;
+}
+
+.NavBar{
+    grid-area: nav;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NavBar img{
+    background-color: green;
+    border-radius: 100%;
+}

@@ -1,0 +1,12 @@
+.App{
+    margin:0;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'nav nav nav nav'
+                         'section section aside aside'
+                         'fotos fotos fotos fotos'
+                         'redes redes redes redes'
+                         'footer footer footer footer';
+    grid-template-rows: 60vh 60vh 60vh 30vh 30vh 20vh;
+}
